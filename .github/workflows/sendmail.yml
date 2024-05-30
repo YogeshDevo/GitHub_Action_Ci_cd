@@ -4,7 +4,6 @@ on: push
 jobs:
  Mails:
   runs-on: ubuntu-latest
-
   steps:
   - name: Print YogeshL
     run: echo "Helo world!"
