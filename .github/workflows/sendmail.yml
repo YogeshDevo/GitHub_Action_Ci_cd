@@ -12,7 +12,7 @@ jobs:
   - name: Sending a Mails
     if: ${{ always() }}
     uses: devellany/send-mailer@v1.0.2
-  with:
+    with:
     host: smtp.google.com
       # Optional port (defaults to 465)
       port: 465
