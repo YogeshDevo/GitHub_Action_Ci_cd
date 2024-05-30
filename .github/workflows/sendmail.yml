@@ -1,5 +1,5 @@
 name: Send Mail
-on: push
+on: pull
 
 jobs:
  Mails:
