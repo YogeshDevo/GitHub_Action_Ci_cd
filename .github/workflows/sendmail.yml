@@ -6,7 +6,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - name: Print YogeshL
-    run: echo "Helo world!"
+    run: echo "YogeshL"
   - name: Sending a Mails
     if: ${{ always() }}
     uses: devellany/send-mailer@v1.0.2
