@@ -4,6 +4,7 @@ on: push
 jobs:
  Mails:
   runs-on: ubuntu-latest
+  
   steps:
   - name: Sending a Mails
     if: ${{ always() }}
